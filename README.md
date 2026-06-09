@@ -2,6 +2,8 @@
 
 A minimal, production-minded AI feature that generates a tailored influencer campaign brief given a brand name, platform, goal, and tone.
 
+▶️ **[Watch the demo on Loom](https://www.loom.com/share/3cea67e483c04b56a192842732c788aa)**
+
 ---
 
 ## Quick Start
@@ -120,7 +122,7 @@ usage = response.usage
 
 Both `latency_ms` and all three token counts are returned in the JSON response and displayed in the UI as a telemetry badge. This makes cost/latency visible during development without needing a separate logging backend.
 
-**Rough cost estimate** (as of June 2025, gpt-4o-mini):
+**Rough cost estimate** (as of June 2026, gpt-4o-mini):
 - Input: ~120 tokens × $0.15/M = ~$0.000018
 - Output: ~250 tokens × $0.60/M = ~$0.000150
 - **Total per call ≈ $0.00017** (~$0.17 per 1,000 briefs)
